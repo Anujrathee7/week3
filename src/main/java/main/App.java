@@ -45,6 +45,7 @@ public class App
                 case 0:
                     exit = true;
                     System.out.println("Thank you for using the program.");
+                    break;
             default:
                 System.out.println("Wrong input value");
                 break;
