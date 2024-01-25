@@ -44,9 +44,12 @@ public class App
                 break;
                 case 0:
                     exit = true;
+                    System.out.println("Thank you for using the program.");
             default:
+                System.out.println("Wrong input value");
                 break;
         }
     }
+    scanner.close();
     }
 }

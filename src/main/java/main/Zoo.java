@@ -27,7 +27,7 @@ public class Zoo {
         for(Animal animal: animals){
             int lap = laps;
             while (lap>0) {
-                System.out.println(animal.getName()+" runs really fast.");
+                System.out.println(animal.getName()+" runs really fast!");
                 lap--;
             }
         }
